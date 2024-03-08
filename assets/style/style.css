@@ -112,29 +112,21 @@ nav ul li a:hover {
   background-position: center;
   z-index: 1;
   height: 800;
-  align-items: center;
-  justify-content: center;
 }
 
-.landing-items {
-  display: block;
-  width: 100%;
-}
+
 
 .landing-text-main {
-  justify-content: left;
   width: 100%;
   height: 800px;
   line-height: 1;
   display: flex;
   align-items: center;
+  justify-content: left;
 }
 
 .landing-text-sub {
   justify-content: left;
-  width: 100%;
-  height: 310px;
-  line-height:1.4;
   display: flex;
   align-items: center;
 }
@@ -143,6 +135,9 @@ nav ul li a:hover {
   font-size: 60px;
   color: var(--font-text-main);
   font-weight: 500;
+}
+.landing-items p {
+  margin: 20px 0;
 }
 
 .landing-paragraph{
@@ -182,8 +177,7 @@ a:link, a:visited {
 /*              About Me                    */
 /*------------------------------------------*/
 
-
-.about-container{
+.about-container {
   display:flex;
   max-width: 100%;
   flex-wrap: wrap;
@@ -198,6 +192,10 @@ a:link, a:visited {
   max-width:calc(60% - 50px);
 }
 
+.about-text p {
+  margin: 20px 0;
+}
+
 .about-picture{
   max-width:calc(30% - 50px);
   height:300px;
@@ -208,6 +206,9 @@ a:link, a:visited {
   justify-content:space-evenly;
 }
 
+.about-picture img {
+  border-radius: 5px;
+}
 
 
 .about-skills {
@@ -238,6 +239,11 @@ a:link, a:visited {
 /*------------------------------------------*/
 /*              Contact                     */
 /*------------------------------------------*/
+
+.contact-container {
+  margin: 20px 0;
+}
+
 
 
 /*------------------------------------------*/
@@ -278,6 +284,44 @@ footer ul li a {
 footer ul li a:hover {
   color: #eaeaff;
 }
+
+/*------------------------------------------*/
+/*             Responsiveness               */
+/*------------------------------------------*/
+
+
+ 
+@media(max-width:768px) {
+  .nav{
+      translate: -100%;
+      display: none;
+  }
+
+  
+
+
+  body {
+    background-color: red;
+  }
+
+
+}
+
+@media(max-width:600px) {
+
+  .project-box {
+    max-width:calc(90% - 10px);
+    flex: 0 0 calc(90% - 10px);
+  }
+
+  body {
+    background-color: blue;
+  }
+
+}
+
+
+
 
 
 
