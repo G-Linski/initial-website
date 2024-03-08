@@ -8,6 +8,8 @@
   --font-text-sub:rgb(255, 255, 255);
 
 
+  --background-dark: #181720;
+
   --box-width: 500px;
   --text-color:#ffffff;
   --header-color:#fffacd;
@@ -227,11 +229,49 @@ a:link, a:visited {
 }
 
 
-
-
 /*------------------------------------------*/
 /*              Contact                     */
 /*------------------------------------------*/
+
+
+/*------------------------------------------*/
+/*              Footer                      */
+/*------------------------------------------*/
+
+footer {
+  background-color:#0d0c11;
+  color: #e9e7e9;
+  height: 60px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 60px;
+  list-style: none;
+}
+
+.footer-socialmedia {
+  font-size: 20px;
+  line-height: 60px;
+  list-style: none;
+  gap: 20px;
+  display: flex;
+}
+
+footer ul li a {
+  text-decoration: none;
+  cursor: default;
+  transition: color 0.25s ease-in-out;
+}
+
+footer ul li a:hover {
+  color: #eaeaff;
+}
 
 
 
