@@ -37,7 +37,14 @@ p {
   font-size: 18px;
 }
 
+li {
+  color: var(--font-text-main);
+}
 
+
+section {
+  margin: 100px 0;
+}
 
 /*----------------------------------*/
 /*             Header               */
@@ -86,8 +93,10 @@ nav ul li a:hover {
   /* background-color: var(--background-dark);
   background: linear-gradient(130deg, rgba(25,24,33,1) 0%, rgba(13,46,98,1) 67%, rgba(0,71,171,1) 100%); */
 
-  background: rgb(25,24,33);
-  background: linear-gradient(34deg, rgba(24,23,32,1) 0%, rgba(13,46,98,1) 88%, rgba(0,71,171,1) 100%);
+  /* background: rgb(25,24,33);
+  background: linear-gradient(34deg, rgba(24,23,32,1) 0%, rgba(13,46,98,1) 88%, rgba(0,71,171,1) 100%); */
+
+
   background: rgb(25,24,33);
   background: linear-gradient(360deg, rgba(25,24,33,1) 0%, rgba(13,46,98,1) 67%, rgba(0,71,171,1) 100%);
 
@@ -158,6 +167,73 @@ button:hover {
 a:link, a:visited {
   text-decoration: none;
 }
+
+
+
+/*------------------------------------------*/
+/*              About Me                    */
+/*------------------------------------------*/
+
+
+.about-container{
+  display:flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.about-title {
+  max-width:calc(100% - 15px);
+}
+.about-text {
+  max-width:calc(60% - 50px);
+}
+
+.about-picture{
+  max-width:calc(30% - 50px);
+  height:300px;
+  border-radius:50%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display:flex;
+  justify-content:space-evenly;
+}
+
+
+
+.about-skills {
+  max-width:calc(45% - 50px);
+  display: flex;
+}
+
+
+
+
+
+/*------------------------------------------*/
+/*              Projects                    */
+/*------------------------------------------*/
+
+.project-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-box {
+  justify-content: center;
+  height:250px;
+  max-width:calc(30% - 15px);
+}
+
+
+
+
+/*------------------------------------------*/
+/*              Contact                     */
+/*------------------------------------------*/
+
+
 
 /*------------------------------------------*/
 /*              Utility                     */
