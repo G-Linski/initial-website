@@ -305,11 +305,20 @@ footer ul li a:hover {
 
 
 @media(max-width: 768px) {
+  .nav {
+    translate: -1000%;
+    display: none;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
 
   .project-box {
     flex: 0 0 calc(50% - 10px);
     max-width: calc(50% - 10px);
   }
+
   .project-box:last-of-type {
     flex: 0 0 calc(100%);
     max-width: 100%;
@@ -340,8 +349,6 @@ footer ul li a:hover {
   }
 
 }
-
-
 
 /*------------------------------------------*/
 /*              Utility                     */
