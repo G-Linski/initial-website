@@ -89,7 +89,6 @@ nav ul li a:hover {
   background-size: cover;
   background-position: center;
   z-index: 1;
-  height: 800;
 }
 
 .landing-text-main {
@@ -162,11 +161,11 @@ a:link, a:visited {
 }
 
 .about-title {
-  max-width:calc(100% - 15px);
+  max-width: calc(100% - 15px);
 }
 
 .about-text {
-  max-width:calc(60% - 50px);
+  max-width: calc(60% - 50px);
 }
 
 .about-text p {
@@ -174,11 +173,11 @@ a:link, a:visited {
 }
 
 .about-picture {
-  max-width:calc(30% - 50px);
-  height:300px;
+  max-width: calc(30% - 50px);
+  height: 300px;
   box-sizing: border-box;
-  display:flex;
-  justify-content:space-evenly;
+  display: flex;
+  justify-content: space-evenly;
   filter: sepia(30%);
 }
 
@@ -187,7 +186,7 @@ a:link, a:visited {
 }
 
 .about-skills {
-  max-width:calc(45% - 50px);
+  max-width: calc(45% - 50px);
   display: flex;
 }
 
@@ -217,7 +216,7 @@ a:link, a:visited {
 }
 
 .project-box img {
-  width:auto;
+  width: auto;
 }
 
 /*------------------------------------------*/
